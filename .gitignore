@@ -23,5 +23,10 @@
 hs_err_pid*
 
 # ide setting files (intellij idea)
+/target/
+.settings
+.classpath
+.project
 *.iml
-*.idea
+.idea
+.springBeans
