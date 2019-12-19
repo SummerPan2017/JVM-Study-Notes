@@ -15,20 +15,20 @@
    
 ## 2. 怎样运行
 ### 2.1 内存分区
-    Java虚拟机将运行时的内存区域划分为【5】个部分，Java程序编译成的字节码.class文件需要先加载至方法区中，才能在虚拟机中运行
+    Java虚拟机将运行时的内存区域划分为【5】个部分，Java程序编译成的字节码.class文件需要先加载至方法区中，才能在虚拟机中运行 
     
 - 方法区 
 - 堆
 - pc寄存器
 - Java方法栈
 - 本地方法栈
-![jvm内存划分](../resources/images/Java虚拟机内存划分.png 'JVM001')
+![jvm内存划分](../src/main/resources/images/Java虚拟机内存划分.png 'JVM001')
 
 
 ### 2.2 执行方式
 - 解释执行：逐条将字节码编译成机器码并执行；
 - 即时编译：将一个方法中包含的所有字节码编译成机器码之后再执行
-![jvm执行方式](../resources/images/Java虚拟机两种编译方式.png 'JVM002')
+![jvm执行方式](../src/main/resources/images/Java虚拟机两种编译方式.png 'JVM002')
 
 
 ## 3. 运行效率如何
